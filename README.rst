@@ -1,5 +1,16 @@
-MonkeyType
-==========
+MonkeyType-jaxtyping
+====================
+
+(Fork info) Just a quick hack to support jaxtyping
+---------------------------------------------------
+outputs types containing the input dims directly (i.e. `Float[torch.Tensor, "1 1024 768"]`)
+
+probably possible to use standard names with some heuristics but that's beyond what I'm usint it for
+
+only supports torch atm (sic)
+
+
+
 
 .. image:: https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB
    :alt: Support Ukraine - Help Provide Humanitarian Aid to Ukraine.
